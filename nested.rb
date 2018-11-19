@@ -83,8 +83,10 @@ def adding_matz
         }
      }
 
-   programmer_hash[:new_key] = "new_value"
-   return programmer_hash[:new_key] 
+   programmer_hash[:yukihiro_matsumoto] = {}
+   programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
+   programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
+   return programmer_hash[:yukihiro_matsumoto] 
 end
 
 def changing_alan
